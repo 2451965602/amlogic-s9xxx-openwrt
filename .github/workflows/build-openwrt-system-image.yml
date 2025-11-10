@@ -4,7 +4,7 @@
 #============================================================================================
 
 name: Build OpenWrt system image
-
+runs-on: self-hosted
 on:
   repository_dispatch:
   workflow_dispatch:
